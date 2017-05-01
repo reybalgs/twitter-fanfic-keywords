@@ -1,0 +1,19 @@
+{
+  "name": "twitter-fanfic-keywords",
+  "version": "1.0.0",
+  "description": "A small web app demonstrating a Twitter bot that sends tweets containing randomized fanfic keywords.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reybalgs/twitter-fanfic-keywords.git"
+  },
+  "author": "Aldo Rey Balagulan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reybalgs/twitter-fanfic-keywords/issues"
+  },
+  "homepage": "https://github.com/reybalgs/twitter-fanfic-keywords#readme"
+}
