@@ -90,3 +90,9 @@ ENV/
 
 # Ignore node modules
 node_modules/
+
+# Ignore Webpack generated modules
+assets/bundles/
+
+# Ignore Webpack stats
+webpack-stats.json
