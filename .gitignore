@@ -96,3 +96,9 @@ assets/bundles/
 
 # Ignore Webpack stats
 webpack-stats.json
+
+# Ignore bower components
+bower_components/
+
+# Ignore generated css
+assets/css/

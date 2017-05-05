@@ -1,0 +1,21 @@
+{
+  "name": "twitter-fanfic-keywords",
+  "description": "A small web app demonstrating a Twitter bot that sends tweets containing randomized fanfic keywords.",
+  "main": "index.js",
+  "authors": [
+    "Aldo Rey Balagulan"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/reybalgs/twitter-fanfic-keywords",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
