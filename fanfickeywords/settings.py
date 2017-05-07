@@ -77,8 +77,12 @@ WSGI_APPLICATION = 'fanfickeywords.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'fanfickeywords',
+        'USER': 'fanfickeywords',
+        'PASSWORD': 'notsecure',
+        'HOST': '172.17.0.2',
+        'PORT': '',
     }
 }
 
