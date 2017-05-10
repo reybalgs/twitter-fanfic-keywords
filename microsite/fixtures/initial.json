@@ -1,0 +1,49 @@
+[
+  {
+    "model": "microsite.Category",
+    "pk": 1,
+    "fields": {
+      "name": "genre"
+    }
+  },
+  {
+    "model": "microsite.Keyword",
+    "pk": 1,
+    "fields": {
+      "word": "romance",
+      "category": 1
+    }
+  },
+  {
+    "model": "microsite.Keyword",
+    "pk": 2,
+    "fields": {
+      "word": "scifi",
+      "category": 1
+    }
+  },
+  {
+    "model": "microsite.Keyword",
+    "pk": 3,
+    "fields": {
+      "word": "horror",
+      "category": 1
+    }
+  },
+  {
+    "model": "microsite.Keyword",
+    "pk": 4,
+    "fields": {
+      "word": "drama",
+      "category": 1
+    }
+  },
+  {
+    "model": "microsite.Keyword",
+    "pk": 5,
+    "fields": {
+      "word": "historical",
+      "category": 1
+    }
+  }
+]

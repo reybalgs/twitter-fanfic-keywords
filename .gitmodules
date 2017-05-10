@@ -1,0 +1,3 @@
+[submodule "keyword-generator"]
+	path = keyword-generator
+	url = git@github.com:reybalgs/keyword-generator.git
