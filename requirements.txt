@@ -1,5 +1,6 @@
 django==1.11
 djangorestframework
+django-webpack-loader
 markdown
 django-filter
 psycopg2
