@@ -102,3 +102,6 @@ bower_components/
 
 # Ignore generated css
 assets/css/
+
+# Ignore the ftpconfig we use on Atom for remote-ftp
+.ftpconfig
