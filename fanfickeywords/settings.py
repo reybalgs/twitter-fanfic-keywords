@@ -25,7 +25,7 @@ SECRET_KEY = '$s*)9y^8acuq4v4an!!#r8jq+i3+s4$aox$*l=&dj-3l+7d!jv'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', '192.168.2.124']
 
 
 # Application definition
@@ -82,7 +82,7 @@ DATABASES = {
         'NAME': 'fanfickeywords',
         'USER': 'fanfickeywords',
         'PASSWORD': 'notsecure',
-        'HOST': '172.17.0.2',
+        'HOST': 'localhost',
         'PORT': '',
     }
 }
