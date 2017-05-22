@@ -9,6 +9,21 @@ gulp.task('css', function(){
     .pipe(gulp.dest('assets/css'))
 });
 
+gulp.task('browser-sync', function() {
+    try {
+        var browserSync = require('browser-sync').create();
+
+        browserSync.init({
+            proxy: 'localhost:8000',
+            files: [
+                'assets/css/*.css',
+                'assets/bundles/*.js'
+            ],
+            ghostMode: true
+        });
+    } catch(e) {}
+});
+
 gulp.watch('assets/less/*.less', {}, [ 'css' ]);
 
-gulp.task('default', [ 'css' ]);
+gulp.task('default', [ 'css', 'browser-sync' ]);

@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 
 import KeywordsAppBar from './KeywordsAppBar';
+import KeywordInput from './KeywordInput';
 
 export default class KeywordsApp extends Component {
   constructor(props) {
@@ -15,6 +16,7 @@ export default class KeywordsApp extends Component {
         <div className="hero-area">
           <div className="container">
             <h2 className="hero-title">Start Generating!</h2>
+            <KeywordInput></KeywordInput>
           </div>
         </div>
         <div className="container">
