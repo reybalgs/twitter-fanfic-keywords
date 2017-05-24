@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 
 import KeywordsAppBar from './KeywordsAppBar';
 import KeywordInput from './KeywordInput';
+import KeywordGenerate from './KeywordGenerate';
 
 export default class KeywordsApp extends Component {
   constructor(props) {
@@ -15,7 +16,11 @@ export default class KeywordsApp extends Component {
         <KeywordsAppBar></KeywordsAppBar>
         <div className="hero-area">
           <div className="container">
+            <KeywordGenerate></KeywordGenerate>
             <h2 className="hero-title">Start Generating!</h2>
+            <h2 className="hero-title">
+              Or add a new keyword to the mix below...
+            </h2>
             <KeywordInput></KeywordInput>
           </div>
         </div>

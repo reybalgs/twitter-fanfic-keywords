@@ -13,7 +13,7 @@ export default class KeywordInput extends Component {
   render() {
     return (
       <div className="hero-input">
-        <TextField fullWidth="true" hintStyle={hintStyle}
+        <TextField fullWidth={true} hintStyle={hintStyle}
             hintText="Enter keyword here...">
         </TextField>
       </div>
